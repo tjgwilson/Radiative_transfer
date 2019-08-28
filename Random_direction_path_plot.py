@@ -4,7 +4,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import random
 
 random.seed()
-dimensions = 2
+dimensions = 3
 num_photons = 1
 num_paths = 100
 

@@ -5,17 +5,17 @@ from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 
 random.seed()
-num_photons = 1
+num_photons = 10000
 radius = 1
 dim = 3
 
-tau_max = 520
-tau_min = 100
+tau_max = 2
+tau_min = 2
 
 
-show_path = True
-find_average_scatters = False
-scatter_loops = 1
+show_path = False
+find_average_scatters = True
+scatter_loops = 100
 
 class rand:
 
